@@ -7,6 +7,7 @@ RUN git clone https://github.com/JC21-210277/r05sikaku-kanri.git servlet-source
 RUN ls -l /app/servlet-source
 RUN gradle -p servlet-source war
 
+
 FROM tomcat:9-jdk17
 USER root
 RUN apt update
